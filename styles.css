@@ -1,0 +1,147 @@
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    /* Add a specific height to the footer to consider when adding space to the body */
+    height: 60px; /* Adjust this value based on your footer's height */
+  }
+  
+  /* Add margin or padding to the bottom of the body */
+  body {
+    margin-bottom: 60px; /* Equal to the height of the fixed footer */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+ 
+
+  .footer_container{
+    background-color: #7bc0c0;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+
+  }
+.navBar{
+    background: #669999;
+    height: 80px;
+    
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar_title{
+    color: aliceblue;
+    font-family: serif;
+    font-display: none;
+    padding-left: 10px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    
+
+
+}
+
+
+.progress_section{
+    height: 60px;
+    margin-top: 20px;
+    border: 1px solid rgb(4, 4, 4);
+    padding: 2px;
+    
+}
+.percentage_section{
+    margin-top: 10px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+/* Apply basic styles to create a grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    text-align: center;
+  }
+  
+  .grid-item {
+    border: 1px solid #000;
+    padding: 10px;
+  }
+
+  .YourListOfCourse{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+
+  }
+
+  .list_course_info{
+    font-size: 11px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  
